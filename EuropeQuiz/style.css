@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+body {
+    background: rgb(0,70,255);
+    background: -moz-linear-gradient(168deg, rgba(0,70,255,1) 0%, rgba(40,255,174,1) 80%, rgba(107,255,246,1) 100%);
+    background: -webkit-linear-gradient(168deg, rgba(0,70,255,1) 0%, rgba(40,255,174,1) 80%, rgba(107,255,246,1) 100%);
+    background: linear-gradient(168deg, rgba(0,70,255,1) 0%, rgba(40,255,174,1) 80%, rgba(107,255,246,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0046ff",endColorstr="#6bfff6",GradientType=1);
+    color: aliceblue;
+    font-family: 'Quicksand', sans-serif;
+    height: 100vh;
+}
+
+.center {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#map {
+    width: 80%;
+    height: 100%;
+}
+
+.map-counter {
+    display: flex;
+    align-items: center;
+}
+
+#counter {
+    color: aliceblue;
+    font-size: 48px;
+    width: 200px;
+}
+
+input {
+    border: 2px solid black;
+}
+
+.you-win {
+    display: none;
+    font-size: 64px;
+    color: yellow;
+    width: 100%;
+    height: 65vh;
+    justify-content: center;
+    align-items: center;
+}
